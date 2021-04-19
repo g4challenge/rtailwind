@@ -7,9 +7,10 @@ Authors@R: person("Lukas", "Huber",
                   role = c("aut", "cre"),
                   comment=c(ORCID="0000-0001-5443-0290"))
 Description: Using tailwindcss frameworks for styling of components
-License: What license is it under?
+License: AGPL (>= 3)
 Encoding: UTF-8
 LazyData: true
 Imports: 
     V8,
     v8
+URL: https://g4challenge.github.io/rtailwind
