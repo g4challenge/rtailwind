@@ -1,0 +1,26 @@
+---
+title: "Transform About"
+author: "Lukas Huber"
+date: "4/19/2021"
+output: html_document
+---
+
+```{r}
+library(V8)
+ct <- v8()
+ct$source(system.file("js/underscore.js", package = "V8"))
+ct$call("_.filter", mtcars, JS("function(x){return x.mpg < 15}"))
+```
+
+```{r}
+ct$source(system.file("js/underscore.js", package = "V8"))
+ct$call("_.filter", mtcars, JS("function(x){return x.mpg < 15}"))
+
+ct$source(system.file("../node_modules/posthtml"))
+ct$source("https://cdn.jsdelivr.net/npm/posthtml@0.15.2/lib")
+ct$source("https://cdn.jsdelivr.net/npm/posthtml@0.15.2/lib/api.js")
+```
+
+
+
+

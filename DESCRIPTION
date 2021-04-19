@@ -1,0 +1,15 @@
+Package: rtailwind
+Type: Package
+Title: Use Tailwindcss in RMarkdown and others
+Version: 0.1.0
+Authors@R: person("Lukas", "Huber", 
+                  email = "lukashuber1@gmail.com",
+                  role = c("aut", "cre"),
+                  comment=c(ORCID="0000-0001-5443-0290"))
+Description: Using tailwindcss frameworks for styling of components
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    V8,
+    v8
