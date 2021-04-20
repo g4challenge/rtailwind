@@ -45,3 +45,8 @@ posthtml([posthtmlCssModules("./cssModules.json")]).process(template).then(funct
     console.log(result.html);
   });
 ```
+
+
+### Concept
+
+Rmarkdown -> knit html -> posthoc tailwind
